@@ -1,0 +1,15 @@
+# Ngrok Deployment (Temporary Exposure for Streamlit App)
+
+1. Install ngrok: https://ngrok.com/
+2. Authenticate: `ngrok config add-authtoken YOUR_TOKEN`
+3. Run your Streamlit app locally:
+   streamlit run ui/app.py
+4. In another terminal, expose port (default Streamlit port 8501):
+   ngrok http 8501
+5. Share the generated https URL.
+6. Stop exposure with Ctrl+C.
+
+Security Tips:
+- Never expose unfiltered system files.
+- Rotate token if leaked.
+- For production, use a proper hosting platform.

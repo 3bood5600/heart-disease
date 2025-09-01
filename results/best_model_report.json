@@ -1,0 +1,53 @@
+{
+  "model_name": "Threshold-Tuned SVC",
+  "best_params": {
+    "C": 1.5,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "probability": true,
+    "class_weight": null,
+    "random_state": 42
+  },
+  "best_threshold": 0.617,
+  "metrics": {
+    "accuracy": 0.875,
+    "precision": 0.8911,
+    "recall": 0.8824,
+    "f1": 0.8867,
+    "roc_auc": 0.9063
+  },
+  "random_state": 42,
+  "cv_strategy": "5-Fold StratifiedKFold",
+  "preprocessing": {
+    "numeric_scaling": "StandardScaler",
+    "categorical_encoding": "OneHotEncoder(ignore_unknown)",
+    "numeric_features": [
+      "chol",
+      "chol_per_age",
+      "ca",
+      "trestbps",
+      "heart_rate_reserve",
+      "oldpeak",
+      "thalch",
+      "age"
+    ],
+    "categorical_features": [
+      "cp_non-anginal",
+      "fbs_True",
+      "exang_True",
+      "slope_flat",
+      "sex_Male",
+      "thal_normal",
+      "slope_upsloping",
+      "cp_atypical angina",
+      "thal_reversable defect"
+    ]
+  },
+  "dataset_used": "selected_features.csv",
+  "timestamp": "2025-08-31 03:04:27",
+  "status": {
+    "accuracy": "OK",
+    "f1": "OK",
+    "roc_auc": "OK"
+  }
+}
