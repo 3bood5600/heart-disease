@@ -2,9 +2,9 @@
 
 # ❤️ Heart Disease Risk Prediction
 
-**AI-powered heart disease risk prediction & exploratory analytics platform.**
+**Heart disease risk prediction & exploratory analytics platform.**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#) [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b.svg)](#) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#) [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b.svg)](#) [![Live Demo](https://img.shields.io/badge/Live%20App-Streamlit-success.svg)](https://heart-disease-hfjjczmyditt8syxmwb2zv.streamlit.app/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 <sub>Educational / research use only – *not* a medical diagnostic tool.</sub>
 
 </div>
@@ -15,6 +15,9 @@
 This repository contains an end‑to‑end machine learning workflow to estimate the probability of heart disease based on structured clinical indicators. It spans **data acquisition, cleaning, exploratory data analysis (EDA), feature engineering & selection, dimensionality reduction, supervised & unsupervised modeling, hyperparameter optimization, decision threshold tuning, model packaging, and deployment via a Streamlit web application** with interactive risk & confidence visualization.
 
 > **Disclaimer:** The model and app are for **educational and research purposes only** and must **not** be used for real clinical decision-making.
+
+### 🔗 Live Demo
+Access the deployed Streamlit application here: **https://heart-disease-hfjjczmyditt8syxmwb2zv.streamlit.app/**
 
 ## Team
 
