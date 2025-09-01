@@ -4,7 +4,7 @@
 
 **AI-powered heart disease risk prediction & exploratory analytics platform.**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#) [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b.svg)](#) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)  
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](#) [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b.svg)](#) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 <sub>Educational / research use only – *not* a medical diagnostic tool.</sub>
 
 </div>
@@ -16,9 +16,16 @@ This repository contains an end‑to‑end machine learning workflow to estimate
 
 > **Disclaimer:** The model and app are for **educational and research purposes only** and must **not** be used for real clinical decision-making.
 
-## 👥 Team
-- **Yousef Salah**  
-- **Abdelrahman Mohsen**
+## Team
+**Yousef Salah Nage**  
+AI & Machine Learning Enthusiast  
+LinkedIn: https://www.linkedin.com/in/yousef-salah-nage-a3583636b  
+GitHub: https://github.com/YousefSalah123  
+**Abdelrahman Mohsen**
+AI & Machine Learning Enthusiast  
+LinkedIn: https://www.linkedin.com/in/abdelrahman-mohsen5600?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
+GitHub: https://github.com/3bood5600
+
 
 ## 📊 Dataset
 Based on a heart disease clinical indicators dataset (UCI-style schema). Each record includes demographics (age, sex), vitals (resting blood pressure, cholesterol), stress test results (exercise-induced angina, ST depression, peak heart rate), and categorical cardiology assessments (chest pain type, slope, thalassemia markers).  
@@ -150,7 +157,7 @@ Potential example visuals (not embedded here):
 - Privacy & security hardening (PII audits, model card)
 
 ## 📜 License
-Released under the **MIT License**. See `LICENSE` (add if not present).
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ## ⚠️ Medical Disclaimer
 This project does **not** provide medical advice, diagnosis, or treatment. Always consult qualified healthcare professionals for clinical decisions.
