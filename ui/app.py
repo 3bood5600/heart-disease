@@ -837,6 +837,9 @@ elif nav_page == 'Models & Results':
     # Confusion matrix & classification report (using available dataset)
     if not raw_df.empty:
         try:
+            # Ensure plotting libs loaded
+            _lazy_import_plotting('plt')
+            _lazy_import_plotting('sns')
             tcol = None
             for cand in ['target', 'num', 'heart_disease']:
                 if cand in raw_df.columns:
@@ -873,6 +876,8 @@ elif nav_page == 'Models & Results':
 
     # Metric bars (if we have model_report)
     if model_report.get('metrics'):
+        # Ensure plotly express loaded
+        _lazy_import_plotting('px')
         metric_df = pd.DataFrame([
             {'metric': 'accuracy',
                 'value': model_report['metrics'].get('accuracy')},
