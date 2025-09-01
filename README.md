@@ -17,14 +17,17 @@ This repository contains an end‑to‑end machine learning workflow to estimate
 > **Disclaimer:** The model and app are for **educational and research purposes only** and must **not** be used for real clinical decision-making.
 
 ## Team
+
 **Yousef Salah Nage**  
 AI & Machine Learning Enthusiast  
-LinkedIn: https://www.linkedin.com/in/yousef-salah-nage-a3583636b  
-GitHub: https://github.com/YousefSalah123  
-**Abdelrahman Mohsen**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yousef-salah-nage-a3583636b)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/YousefSalah123)
+
+**Abdelrahman Mohsen**  
 AI & Machine Learning Enthusiast  
-LinkedIn: https://www.linkedin.com/in/abdelrahman-mohsen5600?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
-GitHub: https://github.com/3bood5600
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelrahman-mohsen5600)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/3bood5600)
+
 
 
 ## 📊 Dataset
